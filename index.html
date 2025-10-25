@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Mtokijani Foundation — Protecting Nature, Sustaining Life</title>
+<link rel="icon" href="assets/favicon.png"/>
+<link rel="stylesheet" href="style.css"/>
+</head><body>
+<div class="container">
+  <header class="header">
+    <div class="brand">
+      <div class="logo"><img src="assets/logo.png" alt="Mtokijani logo"/></div>
+      <div><div style="font-weight:900">Mtokijani Foundation</div><div style="font-size:13px;color:var(--green)">Protecting Nature, Sustaining Life</div></div>
+    </div>
+    <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+  </header>
+
+  <section class="hero">
+    <div style="flex:1;padding:6px">
+      <div class="badge">Community Conservation • Arusha</div>
+      <h1 style="margin:10px 0 8px">Protecting rivers, planting trees, and empowering communities.</h1>
+      <p style="color:#385842;max-width:700px">Mtokijani Foundation is a Tanzania-based non-profit dedicated to environmental conservation, community empowerment, and sustainable development. Join us as we restore landscapes, protect wildlife, and educate future generations.</p>
+      <p style="margin-top:12px">
+        <a class="btn" href="#donate" onclick="openMpesa()">Donate Now</a>
+        <a class="btn btn-secondary" href="gallery.html">Gallery</a>
+        <a class="btn" href="#join">Join Us</a>
+      </p>
+    </div>
+    <div style="width:520px"><img src="assets/hero.jpg" alt="hero image"/></div>
+  </section>
+
+  <section style="margin-top:18px">
+    <h2>Our Causes</h2>
+    <div class="causes">
+      <div class="card"><h3>Tree Planting Programs</h3><p>We plant and nurture native trees across Tanzania to restore forests, improve air quality, and create sustainable green spaces for future generations.</p></div>
+      <div class="card"><h3>Wildlife Protection</h3><p>Our team works to protect endangered animals and preserve their natural habitats through community involvement and awareness campaigns.</p></div>
+      <div class="card"><h3>Community Education</h3><p>We conduct environmental education programs in schools and local communities to inspire sustainable living and conservation habits.</p></div>
+      <div class="card"><h3>Waste Management</h3><p>We promote recycling, proper waste disposal, and community clean-up efforts to maintain cleaner, healthier environments.</p></div>
+      <div class="card"><h3>River Clean-Up Campaigns</h3><p>We organize regular clean-up drives and awareness initiatives to preserve Tanzania’s rivers and protect aquatic life.</p></div>
+      <div class="card"><h3>Aquaponic Projects</h3><p>We introduce aquaponic systems that combine fish farming and vegetable growing, creating efficient, eco-friendly food production methods.</p></div>
+      <div class="card"><h3>Beekeeping Initiatives</h3><p>We train local farmers in sustainable beekeeping, supporting pollination, biodiversity, and eco-based livelihoods.</p></div>
+      <div class="card"><h3>Sustainable Agricultural Practices</h3><p>We empower farmers with eco-friendly techniques that preserve soil health, reduce chemicals, and increase productivity naturally.</p></div>
+      <div class="card"><h3>EcoGreen Projects</h3><p>We develop green technology and renewable energy solutions that drive sustainable community growth and reduce carbon footprints.</p></div>
+      <div class="card"><h3>Soil Conservation Practices</h3><p>We promote erosion control and soil restoration to maintain fertile land, secure food supply, and combat desertification.</p></div>
+    </div>
+  </section>
+
+  <section style="margin-top:18px">
+    <h2>Our Projects</h2>
+    <div class="grid3">
+      <div class="card"><img src="assets/gallery1.jpg" style="width:100%;border-radius:8px"/><h4>Tree Nursery</h4></div>
+      <div class="card"><img src="assets/gallery2.jpg" style="width:100%;border-radius:8px"/><h4>River Restoration</h4></div>
+      <div class="card"><img src="assets/gallery3.jpg" style="width:100%;border-radius:8px"/><h4>Community Planting</h4></div>
+    </div>
+  </section>
+
+  <section id="join" style="margin-top:18px">
+    <h2>Join Us — Be Part of the Change</h2>
+    <p>At Mtokijani Foundation, we believe everyone can make a difference. Join us in protecting nature, supporting communities, and creating a sustainable future for Tanzania and beyond.</p>
+    <div class="card">
+      <form action="mailto:mtokijanifoundation@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group"><label>Full name</label><input type="text" name="name" required/></div>
+        <div class="form-group"><label>Email</label><input type="email" name="email" required/></div>
+        <div class="form-group"><label>Phone (+255)</label><input type="text" name="phone" required/></div>
+        <div class="form-group"><label>Area of interest</label><select name="interest"><option>Tree Planting</option><option>Wildlife Protection</option><option>Beekeeping</option><option>Waste Management</option><option>Community Education</option><option>Aquaponics</option></select></div>
+        <div class="form-group"><label>Message</label><textarea name="message"></textarea></div>
+        <div><button class="btn" type="submit">Send</button></div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+      <div>© 2025 Mtokijani Foundation — Protecting Nature, Sustaining Life</div>
+      <div>Contact: <a href="mailto:mtokijanifoundation@gmail.com" style="color:white">mtokijanifoundation@gmail.com</a> · M-Pesa: +255 746 181 719 · <a href="https://www.instagram.com/mtokijani_worldwide" target="_blank" style="color:white">Instagram</a></div>
+    </div>
+  </footer>
+</div>
+
+<script>
+function openMpesa(){
+  alert("Donate via M-Pesa:\n\nPay to: Omary Yusufu Mwalimu\nNumber: +255 746 181 719\n\nThank you for supporting Mtokijani Foundation!");
+}
+</script>
+</body></html>
